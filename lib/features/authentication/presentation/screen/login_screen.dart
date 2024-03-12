@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Text(
                           'Login',
-                          style: Theme.of(context).textTheme.headline1,
+                          style: Theme.of(context).textTheme.displayLarge,
                           textAlign: TextAlign.left,
                         ),
                         const SizedBox(

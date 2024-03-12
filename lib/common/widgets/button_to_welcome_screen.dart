@@ -9,8 +9,8 @@ class ButtonToWelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () => Navigator.pop(context),
-      child: Row(
-        children: const [
+      child: const Row(
+        children: [
           Padding(
             padding: EdgeInsets.only(right: 15),
             child: Icon(

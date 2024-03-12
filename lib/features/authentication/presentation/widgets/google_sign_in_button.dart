@@ -50,10 +50,10 @@ class _GoogleSignInButtonState extends State<GoogleSignInButton> {
                 );
               }
             },
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
+            child: const Padding(
+              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
               child: Row(
-                children: const [
+                children: [
                   Image(
                     image: AssetImage("assets/images/google_logo.png"),
                     height: 20.0,

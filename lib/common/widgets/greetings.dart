@@ -29,7 +29,7 @@ class Greetings extends StatelessWidget {
                   '$textGreetings $name',
                   style: Theme.of(context)
                       .textTheme
-                      .headline1
+                      .displayLarge
                       ?.copyWith(fontSize: 40),
                   textAlign: TextAlign.center,
                   overflow: TextOverflow.ellipsis,

@@ -21,14 +21,14 @@ class CardContent extends StatelessWidget {
         Text(
           todo.todoName,
           overflow: TextOverflow.ellipsis,
-          style: Theme.of(context).textTheme.subtitle1?.copyWith(
+          style: Theme.of(context).textTheme.titleMedium?.copyWith(
               fontSize: (isLandscape ? 2 : 1.66) * unitHeightValue,
               decoration: todo.todoDone ? TextDecoration.lineThrough : null,
               color: todo.todoDone ? Colors.red : null),
         ),
         Text(
           'Priority : ${todo.priority.toString()}',
-          style: Theme.of(context).textTheme.subtitle2?.copyWith(
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
                 fontSize: (isLandscape ? 2 : 1.66) * unitHeightValue,
               ),
         ),

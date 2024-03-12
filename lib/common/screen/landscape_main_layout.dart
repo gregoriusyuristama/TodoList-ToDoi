@@ -39,7 +39,7 @@ class LandscapeMainLayout extends StatelessWidget {
                         'Hi, ${StringHelper.firstName(user!.isAnonymous ? 'Guest' : user.displayName.toString())}',
                         style: Theme.of(context)
                             .textTheme
-                            .headline1
+                            .displayLarge
                             ?.copyWith(fontSize: unitWidthValue * 4),
                         overflow: TextOverflow.clip,
                       ),

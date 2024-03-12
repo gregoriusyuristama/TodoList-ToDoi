@@ -42,7 +42,7 @@ class _ResetPasswordState extends State<ResetPassword> {
                       'Reset Password',
                       style: Theme.of(context)
                           .textTheme
-                          .headline1
+                          .displayLarge
                           ?.copyWith(fontSize: 40),
                       textAlign: TextAlign.left,
                     ),
@@ -140,8 +140,8 @@ class _ResetPasswordState extends State<ResetPassword> {
                     ),
                     TextButton(
                       onPressed: () => Navigator.pop(context),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           Padding(
                             padding: EdgeInsets.only(right: 15),
                             child: Icon(

@@ -84,10 +84,12 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       child: Column(
                         children: [
                           DefaultTextStyle(
-                            style:
-                                Theme.of(context).textTheme.headline1!.copyWith(
-                                      fontSize: 40,
-                                    ),
+                            style: Theme.of(context)
+                                .textTheme
+                                .displayLarge!
+                                .copyWith(
+                                  fontSize: 40,
+                                ),
                             textAlign: TextAlign.center,
                             child: AnimatedTextKit(
                               animatedTexts: [
@@ -318,10 +320,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                                                   minimumSize:
                                                       const Size.fromHeight(40),
                                                 ),
-                                                child: Row(
+                                                child: const Row(
                                                   mainAxisAlignment:
                                                       MainAxisAlignment.start,
-                                                  children: const [
+                                                  children: [
                                                     Padding(
                                                       padding: EdgeInsets.only(
                                                         right: 8.0,

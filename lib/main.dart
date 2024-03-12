@@ -9,7 +9,7 @@ import 'package:to_do_list/features/authentication/presentation/screen/reset_pas
 import 'package:to_do_list/utils/constants.dart';
 import 'package:to_do_list/features/todo_list/controller/todo_operation.dart';
 import 'package:to_do_list/common/screen/welcome_screen.dart';
-import 'utils/firebase_options.dart';
+import 'firebase_options.dart';
 import 'utils/local_notification_services.dart';
 
 Future<void> main() async {

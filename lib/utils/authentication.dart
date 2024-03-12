@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
 import 'package:the_apple_sign_in/the_apple_sign_in.dart';
-import 'package:to_do_list/utils/firebase_options.dart';
+import 'package:to_do_list/firebase_options.dart';
 import 'package:to_do_list/features/todo_list/controller/todo_operation.dart';
 import 'package:to_do_list/common/screen/main_screen.dart';
 import 'dart:io';
